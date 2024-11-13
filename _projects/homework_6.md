@@ -15,7 +15,7 @@ custom_js:
 We can use a vegachart HTML tag like so:
 
 ```
-<vegachart schema-url="{{ site.baseurl }}/assets/json/scatter2.json" style="width: 100%"></vegachart>
+<vegachart schema-url="{{ site.baseurl }}/assets/json/square.json" style="width: 100%"></vegachart>
 
 ```
 <vegachart schema-url="{{ site.baseurl }}/assets/json/square.json" style="width: 100%"></vegachart>
