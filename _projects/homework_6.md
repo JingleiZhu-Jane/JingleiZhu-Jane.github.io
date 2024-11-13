@@ -10,12 +10,31 @@ custom_js:
   - justcharts
 ---
 
-# Homework 5:
+# Visualization:
 
 We can use a vegachart HTML tag like so:
 
 ```
-<vegachart schema-url="{{ site.baseurl }}/assets/json/square.json" style="width: 100%"></vegachart>
+<vegachart schema-url="{{ site.baseurl }}/assets/json/scatter1.json" style="width: 100%"></vegachart>
+```
+<vegachart schema-url="{{ site.baseurl }}/assets/json/scatter1.json" style="width: 100%"></vegachart>
+
+# Data:
+Here is the link to my data.
+```
+<div class="left">
+{% include elements/button.html link="https://github.com/JingleiZhu-Jane/JingleiZhu-Jane.github.io/blob/main/hw6/scatter.png" text="The Data" %}
+</div>
+
+<div class="right">
+{% include elements/button.html link="https://github.com/JingleiZhu-Jane/JingleiZhu-Jane.github.io/blob/main/hw6/Workbook.ipynb" text="The Analysis" %}
+</div>
 ```
 
-<vegachart schema-url="/assets/json/square.json" style="width: 100%"></vegachart>
+<div class="left">
+{% include elements/button.html link="https://github.com/JingleiZhu-Jane/JingleiZhu-Jane.github.io/blob/main/hw6/scatter.png" text="The Data" %}
+</div>
+
+<div class="right">
+{% include elements/button.html link="https://github.com/JingleiZhu-Jane/JingleiZhu-Jane.github.io/blob/main/hw6/Workbook.ipynb" text="The Analysis" %}
+</div>
