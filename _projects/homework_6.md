@@ -42,7 +42,7 @@ For interactivity, a dropdown filter on "County" lets users dynamically select a
 Here is the link to my data.
 ```
 <div class="left">
-{% include elements/button.html link="https://github.com/JingleiZhu-Jane/JingleiZhu-Jane.github.io/blob/main/assets/pngs/scatter.png" text="The Data" %}
+{% include elements/button.html link="https://github.com/JingleiZhu-Jane/JingleiZhu-Jane.github.io/blob/main/assets/json/square.json" text="The Data" %}
 </div>
 
 <div class="right">
@@ -51,7 +51,7 @@ Here is the link to my data.
 ```
 
 <div class="left">
-{% include elements/button.html link="https://github.com/JingleiZhu-Jane/JingleiZhu-Jane.github.io/blob/main/assets/pngs/scatter.png" text="The Data" %}
+{% include elements/button.html link="https://github.com/JingleiZhu-Jane/JingleiZhu-Jane.github.io/blob/main/assets/json/square.json" text="The Data" %}
 </div>
 
 <div class="right">
